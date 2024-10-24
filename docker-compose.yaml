@@ -1,0 +1,6 @@
+version: '3.0'
+services:
+  httpd-web-1:
+    build: .
+    ports:
+      - 81:80
